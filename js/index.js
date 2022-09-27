@@ -11,6 +11,10 @@ function calculateAll() {
   // it runs when only iteration 1 is completed. at later point, it can be removed.
   const singleProduct = document.querySelector('.product');
   updateSubtotal(singleProduct);
+  const price = product.querySelector('.price span');
+  const quantity = product.querySelector('.quantity input');
+
+  price.innerHtml
   // end of test
 
   // ITERATION 2
